@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.Conductor">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,50,10,10" Spacing="30">
+        <Label Text="Bienvenid@ al area de conductores"
+               TextColor="YellowGreen"
+               FontSize="20"
+               TextTransform="Default"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Seleccione su Ruta"
+               FontSize="15"
+               TextTransform="Uppercase"
+               FontAttributes="Italic"
+               HorizontalOptions="Center"/>
+
+        <ListView HorizontalOptions="Center"
+                  BackgroundColor="DarkGreen"
+                  >
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Ruta 4: Camilo Torres</x:String>
+                    <x:String>Ruta 5: Pablo Sexto</x:String>
+                    <x:String>Ruta 6: Bombay</x:String>
+                    <x:String>Ruta 7: Calle 52</x:String>
+                    <x:String>Ruta 8: La Mariana</x:String>
+                    <x:String>Ruta 9: Pinos 1</x:String>
+                    <x:String>Ruta 10: Bosques 3-4</x:String>
+                    <x:String>Ruta 11: San Diego</x:String>
+                    <x:String>Ruta 12: Boquerón</x:String>
+                    <x:String>Ruta 13: Primavera Asul</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+
+        <Button Text="Iniciar Ruta"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                BorderColor="YellowGreen"
+                BorderWidth="3"
+                CornerRadius="15"
+                WidthRequest="200"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

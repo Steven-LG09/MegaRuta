@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.RutaActiva">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,20,10,10" Spacing="30">
+        <Label Text="RUTA ACTIVA"
+               TextColor="YellowGreen"
+               FontSize="30"
+               TextTransform="Default"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Image Source="location.png"
+               HeightRequest="150"
+               WidthRequest="150"
+               HorizontalOptions="Center"
+               Aspect="Fill"/>
+
+        <Label Text="Reportar Problema"
+               FontSize="Medium"
+               FontAttributes="Italic"
+               HorizontalOptions="Center"/>
+
+        <ListView HorizontalOptions="Center"
+                  BackgroundColor="DarkGreen"
+                  >
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Accidente</x:String>
+                    <x:String>Daño mecanico</x:String>
+                    <x:String>Trafico congestionado</x:String>
+                    <x:String>Manifestacion</x:String>
+                    <x:String>Otro</x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+
+        <Button Text="Enviar"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="200"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Salir"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                BorderColor="YellowGreen"
+                BorderWidth="3"
+                CornerRadius="15"
+                WidthRequest="200"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.Colaborador">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,100,10,10" Spacing="30">
+        <Label Text="!!Bienvenido a Mi Ruta!!"
+               TextColor="YellowGreen"
+               FontSize="20"
+               TextTransform="Uppercase"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Image Source="Mi_Ruta.png"
+               HeightRequest="150"
+               WidthRequest="150"
+               HorizontalOptions="Center"
+               Aspect="Fill"/>
+
+        <Entry Placeholder="Usuario"
+               PlaceholderColor="YellowGreen"
+               HorizontalOptions="Center"
+               WidthRequest="150"
+               MaxLength="10"
+               IsSpellCheckEnabled="True"
+               IsTextPredictionEnabled="True"
+               IsPassword="False" 
+               Keyboard="Text"
+               Completed="Entry_Completed"/>
+
+        <Entry Placeholder="Contraseña"
+               PlaceholderColor="YellowGreen"
+               HorizontalOptions="Center"
+               WidthRequest="150"
+               MaxLength="10"
+               IsSpellCheckEnabled="True"
+               IsTextPredictionEnabled="True"
+               IsPassword="True" 
+               Keyboard="Text"
+               Completed="Entry_Completed_1"/>
+
+        <Button Text="Ingresar"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="170"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked_1"/>
+
+        <Label IsVisible="false"
+               FontSize="15"
+               x:Name="verificador"
+               HorizontalOptions="Center"/>
+
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "k97+qu4IXOnN31OfvdDWI/xzBZsbcyyDYDlaLh4uqHdtxoNmz12Db/AAG88QGQOR9aMtWF8lSb7puECu26a5jg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\julia\\source\\repos\\MiRuta\\MiRuta9\\MiRuta9.iOS\\MiRuta9.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\julia\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\xamarin.build.download\\0.11.0\\xamarin.build.download.0.11.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\xamarin.essentials\\1.8.1\\xamarin.essentials.1.8.1.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\xamarin.forms\\5.0.0.2622\\xamarin.forms.5.0.0.2622.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\xamarin.forms.googlemaps\\5.0.0\\xamarin.forms.googlemaps.5.0.0.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2622\\xamarin.forms.maps.5.0.0.2622.nupkg.sha512",
+    "C:\\Users\\julia\\.nuget\\packages\\xamarin.google.ios.maps\\6.0.1.1\\xamarin.google.ios.maps.6.0.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

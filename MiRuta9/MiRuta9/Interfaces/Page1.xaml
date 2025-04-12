@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="MiRuta9.Interfaces.Page1">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,10,10,10" Spacing="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Estacion Ferrocarril"
+                   TextColor="YellowGreen"
+                   FontSize="20"
+                   TextTransform="Uppercase"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Grid.Column="0"/>
+
+            <Button Text="E"
+                    TextColor="#028e44"
+                    FontSize="15"
+                    FontAttributes="Bold"
+                    CornerRadius="10"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    HorizontalOptions="Center"
+                    TextTransform="Uppercase"
+                    Grid.Column="1"
+                    Clicked="Button_Clicked"/>
+
+            <Button Text="S"
+                    TextColor="#028e44"
+                    FontSize="15"
+                    FontAttributes="Bold"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    HorizontalOptions="Center"
+                    CornerRadius="10"
+                    TextTransform="Uppercase"
+                    Grid.Column="2"
+                    Clicked="Button_Clicked_1"/>
+        </Grid>
+
+        <maps:Map x:Name="mapa"
+                  MapType="Hybrid"/>
+
+        <Grid HorizontalOptions="Start">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Tiempo de llegada Bus Dosquebradas - Cuba"
+                   TextColor="YellowGreen"
+                   FontSize="15"
+                   TextTransform="Default"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Start"
+                   Grid.Column="0"/>
+
+            <Label Text="Aproximadamente"
+                   TextColor="Black"
+                   FontSize="15"
+                   TextTransform="Default"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Start"
+                   Grid.Column="1"/>
+
+            <Label Text=""
+                   x:Name="tiempo"
+                   TextColor="Black"
+                   FontSize="15"
+                   TextTransform="Default"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Start"
+                   Grid.Column="2"/>
+
+            <Label Text="minutos"
+                   TextColor="Black"
+                   FontSize="15"
+                   TextTransform="Default"
+                   FontAttributes="Italic"
+                   HorizontalOptions="Start"
+                   Grid.Column="3"/>
+        </Grid>
+
+    </StackLayout>
+</ContentPage>

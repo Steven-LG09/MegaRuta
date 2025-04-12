@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.Alimentadores">
+
+    <StackLayout BackgroundColor="#028e44" Padding="0,10,0,0" Spacing="10">
+        
+        <ImageButton Source="Dosquebradas.png" 
+                     CornerRadius="10"
+                     WidthRequest="230"
+                     HeightRequest="200"
+                     HorizontalOptions="Center"
+                     Clicked="ImageButton_Clicked"/>
+
+        <Label Text="________________________________________"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               HeightRequest="30"
+               WidthRequest="400"/>
+
+        <ImageButton Source="Pereira.png" 
+                     CornerRadius="10"
+                     WidthRequest="230"
+                     HeightRequest="200"
+                     HorizontalOptions="Center"/>
+
+        <Label Text="________________________________________"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               HeightRequest="30"
+               WidthRequest="400"/>
+
+        <ImageButton Source="Cuba.png" 
+                     CornerRadius="10"
+                     WidthRequest="230"
+                     HeightRequest="200"
+                     HorizontalOptions="Center"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.MainPage">
+
+    <StackLayout BackgroundColor="#028e44" Padding="0,150,0,0" Spacing="30" >
+
+        <ImageButton Source="Mi_Ruta.png"
+                     HeightRequest="300"
+                     WidthRequest="300"
+                     HorizontalOptions="Center"
+                     Aspect="Fill"
+                     Clicked="ImageButton_Clicked"/>
+
+        <Button Text="- - - - - -Ingresar- - - - - -"
+                TextTransform="None"
+                FontAttributes="Italic"
+                BackgroundColor="White"
+                CornerRadius="20"
+                TextColor="#028e44"
+                WidthRequest="200"
+                HeightRequest="38"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

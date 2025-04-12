@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.Supervisor">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,50,10,10" Spacing="30">
+        <Label Text="Bienvenid@ al area de supervision"
+               FontSize="20"
+               TextColor="YellowGreen"
+               TextTransform="Default"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"/>
+
+        <Label Text="Rutas Activas"
+               FontSize="15"
+               TextTransform="Uppercase"
+               FontAttributes="Italic"
+               HorizontalOptions="Center"/>
+
+        <ListView HorizontalOptions="Center"
+                  ItemTapped="ListView_ItemTapped"
+                  BackgroundColor="DarkGreen">
+            <ListView.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>
+                        condu0
+                    </x:String>
+                </x:Array>
+            </ListView.ItemsSource>
+        </ListView>
+    </StackLayout>
+</ContentPage>

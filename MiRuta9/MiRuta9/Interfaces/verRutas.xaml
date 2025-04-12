@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.verRutas">
+
+    <StackLayout BackgroundColor="#028e44" Padding="0,10,0,0" Spacing="25">
+        <Label Text="________________________________________"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               HeightRequest="30"
+               WidthRequest="400"/>
+        
+        <ImageButton Source="FotoAli.png" 
+                     CornerRadius="20"
+                     WidthRequest="250"
+                     HeightRequest="250"
+                     HorizontalOptions="Center"
+                     Clicked="ImageButton_Clicked"/>
+
+        <Label Text="________________________________________"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               HeightRequest="30"
+               WidthRequest="400"/>
+
+        <ImageButton Source="FotoMega.png"
+                     CornerRadius="20"
+                     WidthRequest="250"
+                     HeightRequest="250"
+                     HorizontalOptions="Center"
+                     Clicked="ImageButton_Clicked_1"/>
+
+        <Label Text="________________________________________"
+               TextColor="White"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               FontSize="20"
+               HeightRequest="30"
+               WidthRequest="400"/>
+    </StackLayout>
+</ContentPage>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MiRuta9.Interfaces.Dosquebradas">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,30,10,10" Spacing="30">
+        <Button Text="Ruta 4: Camilo Torres"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 5: Pablo Sexto"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 6: Bombay"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 7: Calle 52"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 8: La Mariana"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 9: Pinos 1"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 10: Bosques 3-4"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 11: San Diego"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 12: Boquerón"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"/>
+
+        <Button Text="Ruta 13: Primavera Asul"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="250"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>

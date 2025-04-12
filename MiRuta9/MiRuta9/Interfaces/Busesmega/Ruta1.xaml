@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Xamarin.Forms.GoogleMaps;assembly=Xamarin.Forms.GoogleMaps"
+             x:Class="MiRuta9.Interfaces.Busesmega.Ruta1">
+
+    <StackLayout BackgroundColor="#028e44" Padding="10,10,10,10" Spacing="10">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Ruta 1"
+                   TextColor="YellowGreen"
+                   FontSize="20"
+                   TextTransform="Uppercase"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Grid.Column="0"/>
+
+            <ImageButton Source="busStop.png"
+                         HeightRequest="40"
+                         HorizontalOptions="Center"
+                         Grid.Column="1"
+                         Clicked="ImageButton_Clicked_1"/>
+
+            <ImageButton Source="location.png"
+                         HeightRequest="40"
+                         HorizontalOptions="Center"
+                         Grid.Column="2"
+                         Clicked="ImageButton_Clicked"/>
+
+        </Grid>
+
+        <Label Text="Tiempo de recorrido: Aproximadamente 1 hora"
+               TextColor="Black"
+               FontSize="12.5"
+               TextTransform="Default"
+               FontAttributes="Italic"
+               HorizontalOptions="Center"/>
+
+        <maps:Map x:Name="mapa"
+                  MapType="Hybrid"/>
+
+        <Button Text="Ver Ruta en tiempo real"
+                TextTransform="Default"
+                FontAttributes="Bold"
+                BackgroundColor="White"
+                TextColor="#028e44"
+                CornerRadius="15"
+                WidthRequest="300"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+</ContentPage>
